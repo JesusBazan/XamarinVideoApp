@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="XamarinVideoApp.MainPage">
+    <StackLayout>
+        <Frame>
+            <Label Text="Media Element Sample"></Label>
+        </Frame>
+        <xct:MediaElement 
+            Source="https://sec.ch9.ms/ch9/931f/12c0d8a2-9707-4416-913e-917e7e02931f/XamarinCommunityToolkitShow-AwesomeAsyncCommand&amp;A_mid.mp4" 
+            ShowsPlaybackControls="True"
+            AutoPlay="True"
+            HeightRequest="200" 
+            WidthRequest="300" 
+            HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>
